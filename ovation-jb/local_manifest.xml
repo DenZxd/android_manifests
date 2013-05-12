@@ -10,6 +10,7 @@
   <remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <remove-project name="CyanogenMod/android_hardware_ti_wlan" />
   <remove-project name="CyanogenMod/android_system_core" />
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
 
   <!-- omapzoom replacements -->
   <project path="device/ti/common-open" name="device/ti/common-open" remote="omapzoom" revision="jb-release" />
@@ -25,6 +26,9 @@
   <project path="hardware/libhardware" name="KFire-Android/android_hardware_libhardware" revision="jellybean" />
   <project path="hardware/libhardware_legacy" name="KFire-Android/android_hardware_libhardware_legacy" revision="jellybean" />
   <project path="system/core" name="KFire-Android/android_system_core" revision="jellybean" />
+
+  <!-- TWRP recovery -->
+  <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="jb-wip" />
 
 <!-- local projects -->
     <project path="device/bn/ovation" name="verygreen/android_device_bn_ovation" remote="github" revision="jellybean" />
