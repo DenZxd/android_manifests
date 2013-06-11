@@ -7,6 +7,8 @@
 
   <!-- local projects -->
   <project path="device/bn/ovation" name="verygreen/android_device_bn_ovation" remote="github" revision="cm-10.1" />
+  <project path="device/bn/hummingbird" name="verygreen/android_device_bn_hummingbird" remote="github" revision="cm-10.1" />
   <project path="kernel/bn/ovation" name="verygreen/green_kernel_omap" remote="github" revision="ovation-3.0" />
+  <project path="kernel/bn/hummingbird" name="verygreen/green_kernel_omap" remote="github" revision="ovation-3.0" />
 
   </manifest>
