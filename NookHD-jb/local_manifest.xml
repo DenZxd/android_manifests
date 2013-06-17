@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <manifest>
+
+  <remote  name="omapzoom" fetch="git://git.omapzoom.org/" />
+
+  <!-- omapzoom projects -->
+
+  <!-- local projects -->
+  <project path="device/bn/ovation" name="verygreen/android_device_bn_ovation" remote="github" revision="cm-10.1-emmc" />
+  <project path="device/bn/hummingbird" name="verygreen/android_device_bn_hummingbird" remote="github" />
+  <project path="device/bn/bn-common" name="verygreen/android_device_bn_common" remote="github" />
+  <project path="kernel/bn/hd-common" name="verygreen/green_kernel_omap" remote="github" revision="ovation-3.0" />
+
+  <project path="vendor/bn" name="verygreen/proprietary_vendor_bn" />
+
+  </manifest>
