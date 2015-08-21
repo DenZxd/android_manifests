@@ -3,6 +3,10 @@
 <remote name="omapzoom" fetch="git://git.omapzoom.org/" />
 <!-- omapzoom projects -->
 <remote name="gh" fetch="git://github.com/" />
+
+<!-- CM removals -->
+<remove-project name="CyanogenMod/android_bootable_recovery" />
+
 <!-- local projects -->
 <project path="device/sd/panda" name="DenZxd/android_device_sd_panda" remote="gh" revision="cm-10.1" />
 <project path="device/sd/sd-common" name="DenZxd/android_device_sd_common" remote="gh" revision="cm-10.1" />
