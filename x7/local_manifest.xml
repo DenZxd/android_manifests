@@ -11,9 +11,9 @@
 <remove-project name="CyanogenMod/android_device_ti_panda" />
 
 <!-- local projects -->
-<project path="device/sd/panda" name="DenZxd/android_device_sd_panda" remote="gh" revision="cm-10.1" />
+<project path="device/sd/x7" name="DenZxd/android_device_sd_x7" remote="gh" revision="cm-10.1" />
 <project path="device/sd/sd-common" name="DenZxd/android_device_sd_common" remote="gh" revision="cm-10.1" />
-<project path="kernel/sd/panda" name="DenZxd/android_kernel_sd_panda" remote="gh" revision="omap-mr1" />
+<project path="kernel/sd/x7" name="DenZxd/android_kernel_sd_x7" remote="gh" revision="omap-mr1" />
 <project path="vendor/sd" name="DenZxd/proprietary_vendor_sd" remote="gh" revision="cm-10.1"/>
 
 <!-- TWRP recovery -->
