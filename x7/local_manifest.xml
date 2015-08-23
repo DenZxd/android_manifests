@@ -7,9 +7,6 @@
 <!-- CM removals -->
 <!-- remove-project name="CyanogenMod/android_bootable_recovery" />
 
-<!-- CM device panda removals -->
-<remove-project name="CyanogenMod/android_device_ti_panda" />
-
 <!-- local projects -->
 <project path="device/sd/x7" name="DenZxd/android_device_sd_x7" remote="gh" revision="cm-10.1" />
 <project path="device/sd/sd-common" name="DenZxd/android_device_sd_common" remote="gh" revision="cm-10.1" />
