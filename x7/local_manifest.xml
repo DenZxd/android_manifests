@@ -4,18 +4,10 @@
 <!-- omapzoom projects -->
 <remote name="gh" fetch="git://github.com/" />
 
-<!-- CM removals -->
-<!-- remove-project name="CyanogenMod/android_bootable_recovery" /> -->
-
 <!-- local projects -->
 <project path="device/sd/x7" name="DenZxd/android_device_sd_x7" remote="gh" revision="cm-10.1" />
 <project path="device/sd/sd-common" name="DenZxd/android_device_sd_common" remote="gh" revision="cm-10.1" />
 <project path="kernel/sd/x7" name="DenZxd/android_kernel_sd_x7" remote="gh" revision="omap-mr1" />
 <project path="vendor/sd" name="DenZxd/proprietary_vendor_sd" remote="gh" revision="cm-10.1"/>
-
-<!-- TWRP recovery -->
-<!-- project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="jb-wip" /> -->
-
-
 
 </manifest>
